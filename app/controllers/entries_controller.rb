@@ -3,14 +3,11 @@ class EntriesController < ApplicationController
 
   # GET /entries or /entries.json
   def index
-    @entries = Entry.all
     @entries = Entry.all 
-    a = 2
   end
 
   # GET /entries/1 or /entries/1.json
   def show
-    b = 3
   end
 
   # GET /entries/new
